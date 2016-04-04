@@ -1,0 +1,268 @@
+@font-face {
+    font-family: DTFont;
+    src: url(fonts/sketch_3d/font.woff);
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+div.clear {
+	width: 60%;
+	margin: 0 auto;
+}
+header {
+	width: 100%;
+	padding: 10px 0px;
+	background-color: rgba(0,0,0,0.50);
+	position: fixed;
+	display: block;
+}
+div.logo {
+	text-align: center;
+	color: orange;
+	float: left;
+	font-size: 30px;
+	font-family: DTFont;
+	-ms-transform: rotate(-4deg);
+    -webkit-transform: rotate(-4deg):;
+    transform: rotate(-4deg);
+}
+div.clear > nav.navi {
+	float: right;
+	display: block;
+}
+nav.navi > ul > li {
+	display: inline;
+}
+nav.navi > ul > li > a , a , a {
+	padding: 25px 40px;
+    line-height: 40px;
+	color: white;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 22px;
+	text-decoration: none;
+	transition: 1s color;
+}
+nav.navi > ul > li > a:hover {
+	color: orange;
+}
+
+
+/* 						ARTICLE 					*/
+
+div.image-handler {
+	width: 100%;
+	height: 800px;
+	background-image: url(../images/Wallpaper2.jpg);
+	text-align: center;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+div.intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+div.intro-lead-in {
+	font-size: 40px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: orange;
+}
+div.intro-heading {
+	font-size: 50px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: orange;
+}
+a.page-scroll {
+	margin: 20px;
+	padding: 20px;
+	font-size: 20px;
+	color: white;
+	background-color: rgb(255, 165, 0);
+}
+a.page-scroll:hover {
+	color: white;
+	background-color: rgb(255, 187, 62);
+}
+
+
+div.about {
+	margin-top: -4px;
+	width: 100%;
+	padding: 150px 0px;
+	background-color: rgb(208, 208, 208);
+}
+p.Title {
+	text-align: center;
+	color: white;
+	font-size: 30px;	
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+div.so {
+	float: left;
+}
+div.pic > img {
+	width: 150px;
+	height: 150px;
+	border: 7px solid #fff;
+	border-radius: 50%;
+	transition: all 1s;
+}
+div.pic:hover > img {
+	border-radius: 40%;
+}
+div.name {
+	padding: 10px 0px;
+	text-align: center;
+}
+div.name > p:nth-child(1) {
+	font-weight: bold;
+	font-size: 22px;
+	color: black;
+}
+div.name > p:nth-child(2) {
+	font-size: 13px;
+	color: #777;
+}
+div.info {
+	padding: 55px 0px 80px 0px;
+	text-align: right;
+}
+div.inner {
+	width: 60%;
+	float: right;
+	font-size: 16px;
+    font-family: 'Slabo 27px', serif;;
+}
+
+
+div.contact {
+	height: 600px;
+	width: 100%;
+	background-image: url(../images/world-map-dotted-black.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+
+
+
+div.services {
+	padding: 20px 0px;
+	width: 100%;
+	background-color: rgb(233, 233, 233);
+	text-align: center;
+}
+div.row1 {
+	width: 100%;
+	height: 340px;
+	display: inline-flex;
+}
+div.card-1-row-1 {
+	height: 230px;
+	width: 200px;
+	background-color: #409EC2;
+}
+div.card-icon {
+	margin: 10px auto;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,0.40);
+}
+div.card-icon > span {
+	font-size: 35px;
+	color: white;
+}
+div.card-content {
+	color: white;
+	font-size: 12px;
+	width: 80%;
+	margin: 19px auto;
+}
+div.laern {
+	width: 100%;
+	padding: 10px 0px;
+	color: white;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: rgba(0,0,0,0.20);\
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+div.laern:hover {
+	background-color: rgba(0,0,0,0.50);
+}
+div.card-title {
+	font-size: 14px;
+	width: 80%;
+	margin: 0 auto;
+	color: white;
+	border-bottom: 2px solid white;
+}
+div.card-2-row-1 {
+	height: 230px;
+	width: 200px;
+	background-color: #D44681;
+}
+div.card-3-row-1 {
+	height: 230px;
+	width: 200px;
+	background-color: #813AB1;
+}
+div.row2 {
+	width: 100%;
+	height: 340px;
+	display: inline-flex;
+}
+div.card-1-row-2 {
+	height: 230px;
+	width: 200px;
+	background-color: #3FC1A2;
+}
+div.card-2-row-2 {
+	height: 230px;
+	width: 200px;
+	background-color: #CCCC43;
+}
+div.b {
+	border-radius: 5px;
+	margin: 50px 8%;
+}
+div.a {
+	border-radius: 5px;
+	margin: 50px 16%;
+}
+/*							FOOTER 							*/
+
+footer {
+	width: 100%;
+	padding: 10px 0px;
+	background-color: rgb(208, 208, 208);
+	text-align: center;
+}
+.col-1, .col-2, .col-3 {
+	float: left;
+	width: 33.33333333333%;
+}
+.col-1 {
+	padding: 15px;
+}
+.col-2 {
+	padding: 15px;
+}
+div.col-2 > div.social > a {
+    font-size: 30px;
+    padding: 25px;
+    color: #000;
+    cursor: pointer;
+}
+.col-3 {
+	padding: 15px;
+}
+.col-3 > p {
+	color: rgb(246, 159, 0);
+}
